@@ -9,30 +9,25 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn1, btn2, btn3;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        btn1 = (Button) findViewById(R.id.btn1);
-        btn2 = (Button) findViewById(R.id.btn2);
-        btn3 = (Button) findViewById(R.id.btn3);
+        setTitle("Menu Principal");
     }
 
     public void Telefone(View v){
-        Intent intent = new Intent(this, Telefone.class);
+        Intent intent = new Intent(MainActivity.this, Telefone.class);
         startActivity(intent);
     }
 
     public void Mapa(View v){
-        Intent intent = new Intent(this, Mapa.class);
-        startActivity(intent);
+        Intent intent1 = new Intent(MainActivity.this, Mapa.class);
+        startActivity(intent1);
     }
 
     public void Email(View v){
-        Intent intent = new Intent(this, Email.class);
-        startActivity(intent);
+        Intent intent2 = new Intent(MainActivity.this, Email.class);
+        startActivity(intent2);
     }
 }

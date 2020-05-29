@@ -14,7 +14,9 @@ public class Telefone extends AppCompatActivity {
 
     TextView txtTelefone;
     Button btnTelefone;
-    EditText ediTelefone;
+    EditText ediTelefone, ediTelefone1;
+    Uri uri = null;
+    Intent intent = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,12 +26,14 @@ public class Telefone extends AppCompatActivity {
         txtTelefone = (TextView) findViewById(R.id.txtTelefone);
         btnTelefone = (Button) findViewById(R.id.btnTelefone);
         ediTelefone = (EditText) findViewById(R.id.ediTelefone);
+        ediTelefone1 = (EditText) findViewById(R.id.ediTelefone1);
+        setTitle("Telefone");
     }
 
     public void EnviarSMS(View v){
-        Intent intent = new Intent(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("sms:" + ediTelefone));
-        intent.putExtra("sms_body", "Mensagem de boas vindas");
+        uri = Uri.parse("sms: " + ediTelefone.getText());
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        intent.putExtra("sms_body", ediTelefone1.getText().toString());
         startActivity(intent);
     }
 }

@@ -4,7 +4,20 @@
     <string name="btn2">Mapa</string>
     <string name="btn3">Email</string>
     <string name="txtTelefone">Digite o número de telefone que deseja enviar um SMS</string>
-    <string name="ediTelefone">(DDD) xxxxx-xxxx</string>
-    <string name="ediTelefone1"></string>
+    <string name="HintTelefone">(DDD) xxxxx-xxxx</string>
+    <string name="ediTelefone"></string>
     <string name="btnTelefone">Enviar</string>
+    <string name="txtMapa">Digite o endereço para aparecer no mapa</string>
+    <string name="HintMapa">Rua exemplo, 250 - Bairro, Cidade - UF </string>
+    <string name="ediMapa"></string>
+    <string name="btnMapa">Buscar</string>
+    <string name="txtEmail">Digite o email que deseja mandar uma mensagem</string>
+    <string name="ediEmail">example@gmail.com</string>
+    <string name="ediEmail1"></string>
+    <string name="btnEmail">Enviar</string>
+    <string name="txtEmail1">Digite o assunto</string>
+    <string name="txtEmail2">Digite o texto</string>
+    <string name="ediEmail2">Assunto</string>
+    <string name="ediEmail3">Texto...</string>
+    <string name="HintTelefone1">Mensagem</string>
 </resources>

@@ -24,9 +24,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/ediTelefone"
+        android:hint="@string/HintTelefone"
         android:inputType="textPersonName"
-        android:text="@string/ediTelefone1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,4 +44,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ediTelefone"
         app:layout_constraintVertical_bias="0.494" />
+
+    <EditText
+        android:id="@+id/ediTelefone1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/HintTelefone1"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/btnTelefone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ediTelefone" />
 </androidx.constraintlayout.widget.ConstraintLayout>
