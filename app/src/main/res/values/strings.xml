@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IntentsImplicitas</string>
+    <string name="btn1">Telefone</string>
+    <string name="btn2">Mapa</string>
+    <string name="btn3">Email</string>
+    <string name="txtTelefone">Digite o número de telefone que deseja enviar um SMS</string>
+    <string name="ediTelefone">(DDD) xxxxx-xxxx</string>
+    <string name="ediTelefone1"></string>
+    <string name="btnTelefone">Enviar</string>
+</resources>
