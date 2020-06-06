@@ -35,4 +35,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent3 = new Intent(MainActivity.this, Galeria.class);
         startActivity(intent3);
     }
+
+    public void Add(View v) {
+        Intent intent3 = new Intent(MainActivity.this, Add.class);
+        startActivity(intent3);
+    }
 }

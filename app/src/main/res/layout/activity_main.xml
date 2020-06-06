@@ -53,6 +53,7 @@
         android:id="@+id/btn4"
         android:layout_width="317dp"
         android:layout_height="64dp"
+        android:onClick="Add"
         android:text="@string/btn5"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
