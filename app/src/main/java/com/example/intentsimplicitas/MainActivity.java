@@ -30,4 +30,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent2 = new Intent(MainActivity.this, Email.class);
         startActivity(intent2);
     }
+
+    public void Galeria(View v) {
+        Intent intent3 = new Intent(MainActivity.this, Galeria.class);
+        startActivity(intent3);
+    }
 }
