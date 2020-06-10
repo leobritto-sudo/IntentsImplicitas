@@ -3,10 +3,10 @@
     <string name="btn1">Telefone</string>
     <string name="btn2">Mapa</string>
     <string name="btn3">Email</string>
-    <string name="btn4">Galeria</string>
-    <string name="btn5">Adicionar Foto</string>
+    <string name="btn4">Foto</string>
+    <string name="btn5">Galeria</string>
     <string name="btnImage">Tirar foto</string>
-    <string name="btnAddImage">Adicionar</string>
+    <string name="btnAddImage">Galeria</string>
     <string name="btnAdd">Escolher foto da galeria</string>
     <string name="txtTelefone">Digite o número de telefone que deseja enviar um SMS</string>
     <string name="HintTelefone">(DDD) xxxxx-xxxx</string>

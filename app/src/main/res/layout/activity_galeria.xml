@@ -4,26 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F0F44336"
     tools:context=".Galeria">
 
     <LinearLayout
         android:id="@+id/ln"
-        android:layout_width="348dp"
-        android:layout_height="667dp"
+        android:layout_width="300dp"
+        android:layout_height="526dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.191">
+        app:layout_constraintVertical_bias="0.407">
 
         <Button
             android:id="@+id/btnImage"
             android:layout_width="match_parent"
-            android:layout_height="63dp"
+            android:layout_height="72dp"
+            android:background="#F3FFEB3B"
             android:onClick="takePic"
             android:text="@string/btnImage"
+            android:textColor="#673AB7"
+            android:textSize="45sp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

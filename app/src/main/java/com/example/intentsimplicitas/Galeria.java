@@ -24,6 +24,7 @@ public class Galeria extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_galeria);
+        setTitle("Tirar foto");
     }
 
     public void takePic(View v) {
@@ -48,7 +49,6 @@ public class Galeria extends AppCompatActivity {
                 imageView.getLayoutParams().width = 100;
                 imageView.requestLayout();
                 showMessage("Imagem capturada!");
-                addPic();
             } else {
                 showMessage("Imagem não capturada!");
             }
@@ -59,13 +59,6 @@ public class Galeria extends AppCompatActivity {
         Toast.makeText(this, msg,
                 Toast.LENGTH_LONG)
                 .show();
-    }
-
-    private void addPic() {
-        Intent intent = new Intent(
-                Intent.ACTION_MEDIA_SCANNER_SCAN_FILE);
-        intent.setData(uri);
-        this.sendBroadcast(intent);
     }
 }
 
